@@ -89,7 +89,7 @@ public class Procesos {
                     System.out.println("El nodo con Id: " + x.getId() + " no se encuentra activo");
                 }
             });
-            case 2 -> System.out.println("\nNodo " + nodo.getId() + " : Eleccion");
+            case 2 -> System.out.println("\nNodo " + nodo.getId() + " : Eleccion\n");
             case 3 -> System.out.println("Nodo " + nodo.getId() + " - OK: " + nodo.isActive());
             case 4 -> System.out.println("Nodo " + nodo.getId() + " - Coordinador: " + nodo.isCoordinador());
         }

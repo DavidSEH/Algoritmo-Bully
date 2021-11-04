@@ -11,7 +11,7 @@ public class Main {
 
         ArrayList<Nodo> nodos = new ArrayList<>();
         for (int i = 0; i < numNodos; i++) {
-            int numRandom = (int) (Math.random() * (200 - 10 + 1) + 10);
+            int numRandom = (int) (Math.random() * (400 - 10 + 1) + 10);
             nodos.add(new Nodo(numRandom, true, false));
         }
         Procesos procesos = new Procesos(nodos);
